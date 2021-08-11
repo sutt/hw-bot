@@ -21,7 +21,7 @@ import subprocess
                 > git commit -m "rm plock"
 
             - may want to add package.json as well (?)
-            
+
         - change `repo_name` below to the name of the repo slug
 
     now, run:
@@ -101,7 +101,7 @@ for student in students:
     
 
 with open(debug_fn, 'w') as f:
-    f.writelines(ERRS)
+    f.writelines('\n'.join([str(e) for e in ERRS]))
 
 print(f"script complete!")
 print(f"roster of length:    {len(students)}")
