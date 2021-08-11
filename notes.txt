@@ -1,0 +1,25 @@
+
+[x] demo worksapce:
+
+    https://git.generalassemb.ly/sei-712/react-likes/pulls
+
+[x] set each as a separate remote
+
+    with a list of users, we know the name of the repo (same as assignment)
+
+[x] build a file with usernames + branch
+
+[x] need to pull down each to a separate branch
+
+    git checkout -b <user|branch>
+    git pull <user> <branch>
+
+    [ ] could we use git branch -a and filter out master
+
+
+[ ] demo with several students
+
+[]  upload to github
+
+
+
